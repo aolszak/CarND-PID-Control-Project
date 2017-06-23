@@ -16,7 +16,15 @@ public:
   double Kp;
   double Ki;
   double Kd;
-
+    
+  /*
+   * Additional variables
+   */
+  double dt;
+  double prev_cte;
+  double total_cte;
+  double last_timestamp;
+    
   /*
   * Constructor
   */
