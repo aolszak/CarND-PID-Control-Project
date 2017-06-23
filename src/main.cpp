@@ -34,7 +34,7 @@ int main()
 
   // Init PID controller
   PID pid;
-  pid.Init(0.08, 0.002, 5);
+  pid.Init(0.12, 0.0015, 2.0);
   pid.prev_cte = 0;
   pid.dt = 0;
   pid.last_timestamp = clock();
